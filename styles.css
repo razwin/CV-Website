@@ -1,0 +1,136 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.skills, .languages {
+  margin: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skill-title {
+  font-weight: bold;
+  display: inline-block;
+  width: 80px;
+}
+
+.skill-bar {
+  width: 150px;
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 10px;
+  position: relative;
+}
+
+.skill-level {
+  height: 100%;
+  border-radius: 8px;
+  position: absolute;
+}
+
+.high {
+  background-color: #4CAF50; /* Green */
+  width: 80%;
+}
+
+.good {
+  background-color: #FFC107; /* Yellow */
+  width: 60%;
+}
+
+.average {
+  background-color: #FF5722; /* Orange */
+  width: 40%;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+/* styles.css */
+/* Previous styles */
+
+.language-title {
+  font-weight: bold;
+  display: inline-block;
+  width: 80px;
+}
+
+.language-bar {
+  width: 150px;
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 10px;
+  position: relative;
+}
+
+.language-level {
+  height: 100%;
+  border-radius: 8px;
+  position: absolute;
+}
+
+.high {
+  background-color: #4CAF50; /* Green */
+  width: 80%;
+}
+
+.good {
+  background-color: #FFC107; /* Yellow */
+  width: 60%;
+}
+
+.average {
+  background-color: #FF5722; /* Orange */
+  width: 40%;
+}
+
+/* Other styles */
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 2rem;
+}
+
+/* Skills and Languages styles */
+
+.skills, .languages {
+  flex: 1;
+  min-width: 200px;
+  margin: 1rem;
+}
+
+/* Skill and Language bar styles (same as previous) */
+
+/* Footer styles */
+
+/* Other styles */
